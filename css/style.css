@@ -1,0 +1,84 @@
+/* 공통 배경 */
+.app-header {
+  background-color: yellow;
+  height: 15vh;
+}
+.app-navigation {
+  background-color: pink;
+  height: 20vh;
+}
+.app-main {
+  background-color: blue;
+}
+.book {
+  background-color: tomato;
+  height: 10vh;
+}
+.news {
+  background-color: lime;
+  height: 10vh;
+}
+.board {
+  background-color: silver;
+  height: 10vh;
+}
+.favorite {
+  background-color: hotpink;
+  height: 10vh;
+}
+.twitter {
+  background-color: blueviolet;
+  height: 10vh;
+}
+.app-footer {
+  background-color: orange;
+  height: 15vh;
+}
+/* 공통 스타일 */
+body {
+  margin: 0;
+}
+/* 모바일 디바이스 */
+@media screen and (max-width: 999px) {
+  /* 모바일 헤더 */
+  .app-header {
+    height: 25vh;
+  }
+  /* 모바일 내비게이션 */
+  .app-navigation {
+    display: none;
+  }
+  /* 모바일 메인 */
+  .app-main {
+    display: flex;
+    flex-flow: row wrap;
+    height: 50vh;
+  }
+  /* 모바일 추천 서적 */
+  .book {
+    width: 50%;
+  }
+  /* 모바일 새소식 */
+  .news {
+    width: 50%;
+  }
+  /* 모바일 게시판 */
+  .board {
+    width: 70%;
+  }
+  /* 모바일 인기사이트 */
+  .favorite {
+    width: 30%;
+  }
+  /* 모바일 트위터 */
+  .twitter {
+    width: 100%;
+  }
+  /* 모바일 푸터 */
+  .app-footer {
+    height: 25vh;
+  }
+}
+/* 데스크탑 디바이스 */
+@media screen and (min-width: 1000px) {
+}
