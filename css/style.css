@@ -51,12 +51,24 @@ a {
   color: inherit;
   text-decoration: none;
 }
+/* 공통 컨테이너 */
+.app-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.app-header,
+.app-navigation,
+.app-main,
+.app-footer {
+  width: 100%;
+}
 /* 모바일 디바이스 */
 @media screen and (max-width: 999px) {
   /* 모바일 Body */
   body {
     font-size: 1.5rem;
   }
+
   /* 모바일 헤더 */
   .app-header {
     height: 25vh;
@@ -98,4 +110,16 @@ a {
 }
 /* 데스크탑 디바이스 */
 @media screen and (min-width: 1000px) {
+  /* 데스크탑 컨테이너 */
+  .app-container {
+    justify-content: center;
+  }
+  /* 데스크탑 헤더 */
+  .app-header {
+    width: 1000px;
+  }
+  /* 데스크탑 메인 콘텐츠 */
+  .app-main {
+    width: 1000px;
+  }
 }
