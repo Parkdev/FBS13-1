@@ -3,7 +3,6 @@
 /* 공통 배경 */
 .app-header {
   background-color: yellow;
-  height: 15vh;
 }
 .app-navigation {
   background-color: pink;
@@ -71,7 +70,6 @@ a {
 
   /* 모바일 헤더 */
   .app-header {
-    height: 25vh;
   }
   /* 모바일 내비게이션 */
   .app-navigation {

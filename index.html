@@ -11,9 +11,23 @@
   <body>
     <div class="app-container">
       <header class="app-header">
-        <h1>
-          <a href="#">헤더</a>
+        <h1 class="brand resetMargin">
+          <a href="index.html">
+            <img src="./images/rwd-logo.png" alt="Web Cafe">
+          </a>
         </h1>
+        <ul class="memberOnly resetList">
+          <li><a href="/">로그인</a></li>
+          <li><span class="divider" aria-hidden="true">ㅣ</span><a href="/">회원가입</a></li>
+          <li><span class="divider" aria-hidden="true">ㅣ</span><a href="/">커뮤니티</a></li>
+        </ul>
+        <form action="https://formspree.io/xyyzgpvy" method="POST" class="searchForm">
+          <fieldset class="resetBox">
+            <legend>검색</legend>
+            <input type="search" required placeholder="검색어를 입력하세요." name="search" aria-label="검색어">
+            <button type="submit" class="button buttonSearch">검색</button>
+          </fieldset>
+        </form>
       </header>
       <nav class="app-navigation">내비게이</nav>
       <main class="app-main">
