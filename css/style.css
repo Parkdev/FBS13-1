@@ -1,3 +1,5 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
 /* 공통 배경 */
 .app-header {
   background-color: yellow;
@@ -36,7 +38,8 @@
 }
 /* 공통 스타일 */
 body {
-  margin: 0;
+  font-family: 'Spoqa Han Sans', 'Sans-serif';
+  font-weight: 400;
 }
 /* 모바일 디바이스 */
 @media screen and (max-width: 999px) {
